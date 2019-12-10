@@ -10,11 +10,11 @@ a{
 }
 
 a:hover{
-    color: rgb(61, 187, 3);
+    color: rgb(35, 97, 59);
 }
 
 #active-link{
-    color:   rgba(61, 187, 3, 0.747);
+    color: rgba(35, 100, 60, 0.801);
 }
 
 .carousel-inner img{
