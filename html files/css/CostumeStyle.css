@@ -32,3 +32,47 @@ img{
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(231, 243, 234, 0.712)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+#container_grid{
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: minmax(10vh,auto);
+    grid-template-areas:
+    "dog dog .... .... .... cat"
+    "dog dog tree tree tree cat"
+    "smile smile tree tree tree cat"
+    "city city tree tree tree cat"
+    "city city tree tree tree ....."
+    
+}
+
+.gallery_pic.dog{
+    background-color: blue;
+    grid-area:dog;
+
+}
+.gallery_pic.tree{
+    background-color: red;
+    grid-area:tree;
+    
+}
+.gallery_pic.city{
+    background-color: yellow;
+    grid-area:city;
+}
+.gallery_pic.car{
+    background-color:pink;
+    grid-area:car;
+}
+.gallery_pic.smile{
+    background-color:green;
+    grid-area:smile;
+}
+.gallery_pic.nature{
+    background-color:brown;
+    grid-area: nature;
+}
+.gallery_pic.cat{
+    background-color:black;
+    grid-area: cat;
+    
+}
