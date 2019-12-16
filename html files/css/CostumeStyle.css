@@ -59,6 +59,7 @@ img:hover {
 
 .my-nav-option {
     font-size: 1.4rem;
+    margin: 0 0.5rem 0 0.5rem;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
     transition: box-shadow 0.4s;
 }
