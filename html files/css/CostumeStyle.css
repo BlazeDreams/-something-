@@ -58,7 +58,7 @@ img:hover {
 }
 
 .my-nav-option {
-      font-size: 1.4rem;
+    font-size: 1.4rem;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
     transition: box-shadow 0.4s;
 }
@@ -78,4 +78,22 @@ img:hover {
 
 ul {
     list-style: none;
+}
+
+.btn, .btn-primary {
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(33, 87, 54);
+    text-shadow: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(33, 87, 54);
+    color: white!important;
+}
+
+#contact-form {
+    padding: 2%;
 }
