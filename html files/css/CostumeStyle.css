@@ -107,6 +107,11 @@ ul {
     list-style: none;
 }
 
+.list-unstyled {
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .btn, .btn-primary {
     background-color: rgb(33, 87, 54);
     color: white!important;
