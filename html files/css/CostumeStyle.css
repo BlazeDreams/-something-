@@ -102,6 +102,19 @@ img:hover {
     color: rgb(33, 87, 54);
 }
 
+.h1-responsive {
+    color: rgb(33, 87, 54);
+    font-family: 'Parisienne', cursive;
+}
+
+h3, h4, .p-responsive, .container {
+    font-family: 'Baskervville', serif;
+}
+
+.p-responsive, .container {
+    font-size: 110%;
+}
+
 .paragraph {
     font-size:110%;
 }
