@@ -6,15 +6,15 @@
     transition: box-shadow 0.4s;
 }
 
-a{
+.my-nav-option{
     text-decoration: none;
     color: azure;
     text-shadow: 5px 3px 2px black;
 }
 
-a:hover{
+.my-nav-option:hover{
     color: rgb(35, 97, 59);
-}
+} 
 
 #active-link{
     color: rgba(35, 100, 60, 0.801);
@@ -41,6 +41,13 @@ footer {
     width: 100%;
 }
 
+.footer_link{
+    color:  rgb(217, 223, 217);
+}
+
+.footer_link:hover{
+    color:rgb(35, 97, 59);
+}
 .row {
     text-align: center;
     margin: auto;
@@ -70,7 +77,7 @@ footer {
 
 .gallery_pic{
     width: auto;
-    box-shadow:1px 1px 20px;
+    box-shadow:1px 1px 20px black;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
     transition: box-shadow 0.4s;
 
