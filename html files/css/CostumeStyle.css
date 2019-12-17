@@ -54,10 +54,6 @@ footer {
     padding: 2%;
 }
 
-.my-row {
-    padding: 1%;
-}
-
 .footer-row {
     padding: 0;
 }
@@ -71,17 +67,13 @@ footer {
     padding: 2%;
 }
 
-.my-2 {
-    padding: 1%;
-}
-
 .gallery_pic{
     width: auto;
     box-shadow:1px 1px 20px black;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
     transition: box-shadow 0.4s;
-
 }
+
 img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
