@@ -4,7 +4,6 @@
     background-size: 16rem;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
     transition: box-shadow 0.4s;
-  
 }
 
 a{
@@ -45,7 +44,22 @@ footer {
 .row {
     text-align: center;
     margin: auto;
+    padding: 2%;
 }
+
+.footer-row {
+    padding: 0;
+}
+
+.contact-row {
+    padding-bottom: 2%;
+    padding-top: 0;
+}
+
+.my-2 {
+    padding: 1%;
+}
+
 .gallery_pic{
     width: auto;
     box-shadow:1px 1px 20px;
@@ -58,8 +72,8 @@ img:hover {
 }
 
 .my-nav-option {
-      font-size: 1.4rem;
-      margin: 0 0.5rem 0 0.5rem;
+    font-size: 1.4rem;
+    margin: 0 0.5rem 0 0.5rem;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
     transition: box-shadow 0.4s;
 }
@@ -79,4 +93,22 @@ img:hover {
 
 ul {
     list-style: none;
+}
+
+.btn, .btn-primary {
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(33, 87, 54);
+    text-shadow: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(33, 87, 54);
+    color: white!important;
+}
+
+#contact-form {
+    padding: 2%;
 }

@@ -40,9 +40,9 @@
 
     <!--hinnasto page texts-->
     <div class="container">
-        <div class="row justify-content-center col">
-            <div class="col-sm-12 bg-light"><h2 class="h2-responsive font-weight-bold">Hinnasto</h2> <p>(kaikki hinnat sisältävät alv.24%)</p></div>
-            <div class="col-sm-6 bg-light">
+        <div class="row justify-content-center">
+            <div class="col-sm-12"><h2 class="h2-responsive font-weight-bold">Hinnasto</h2> <p>(kaikki hinnat sisältävät alv.24%)</p></div>
+            <div class="col-sm-12 bg-light">
                 <h4>Hääkuvaus</h4>
                 <ul>
                     <li>12h/1490,-</li>
@@ -53,8 +53,37 @@
                 <p>Hääpotretit miljöössä: 450,- (Kuvausaika 2h) </p>
                 <p>Hääpotretit miljöössä sekä vihkimisen kuvaus: 550,- </p>
             </div>
+        </div>
+        <div class="row justify-content-center">
             <div class="col-sm-6 bg-light">
                 <h4>Studiokuvaus</h4>
+                <ul>
+                    <li>12h/250,-</li>
+                    <li>10h/1390,-</li>
+                    <li>8h/1290,-</li>
+                    <li>6h/ 1090,-</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 bg-light">
+                <h4>Henkilökuvaus</h4>
+                <ul>
+                    <li>12h/250,-</li>
+                    <li>10h/1390,-</li>
+                    <li>8h/1290,-</li>
+                    <li>6h/ 1090,-</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 bg-light">
+                <h4>Tapahtumakuvaus</h4>
+                <ul>
+                    <li>12h/250,-</li>
+                    <li>10h/1390,-</li>
+                    <li>8h/1290,-</li>
+                    <li>6h/ 1090,-</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 bg-light">
+                <h4>Tuotekuvaus</h4>
                 <ul>
                     <li>12h/250,-</li>
                     <li>10h/1390,-</li>
@@ -65,39 +94,39 @@
         </div>
     </div>
     <!--contact sheet-->
-    <section class="contact-sheet mb-4" id="contact-sheet">
+    <section class="contact-sheet" id="contact-sheet">
 
         <h2 class="h2-responsive font-weight-bold text-center my-4">Ota meihin yhteyttä!</h2>
         <p class="text-center w-responsive mx-auto mb-5">Haluatko varata kuvausajan? Vai onko sinulla kenties jotain kysyttävää? Lähetä meille yhteydenottolomake ja otamme sinuun yhteyttä!</p>
 
-        <div class="row">
-            <div class="col-md-6 mb-md-0 mb-7">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
+        <div class="row contact-row justify-content-center">
+            <div class="col-md-6 mb-md-0 mb-7 bg-light">
+                <form id="contact-form" name="contact-form">
                     <div class="row justify-content-center">
                         <!--info boxes-->
                         <div class="col-md-4">
-                            <div class="md-form mb-6">
-                                <label for="fname" class="">Etunimi</label>
+                            <div class="md-form mb-6 form-group">
+                                <label for="fname">Etunimi</label>
                                 <input type="text" id="fname" name="firstname" class="form-control" placeholder="Etunimi tähän...">
                             </div>
-                            <div class="md-form mb-6">
-                                <label for="lname" class="">Sukunimi</label>
+                            <div class="md-form mb-6 form-group">
+                                <label for="lname">Sukunimi</label>
                                 <input type="text" id="lname" name="lastname" class="form-control" placeholder="Sukunimi tähän...">
                             </div>
                         </div>
 
                         <div class="col-md-6">
-                            <div class="md-form mb-2">
-                                <label for="email" class="">Sähköpostiosoite</label>
+                            <div class="md-form mb-2 form-group">
+                                <label for="email">Sähköpostiosoite</label>
                                 <input type="text" id="email" name="email" class="form-control" placeholder="Sähköpostiosoite tähän...">
                             </div>
                         </div>
                         
                         <div class="col-md-10">
-                            <div class="md-form mb-3"></div>
+                            <div class="md-form mb-3 form-group"></div>
                                 <label for="valokuvaus">Mitä valokuvausta asiasi koskee?</label>
-                                    <select id="valokuvaus" name="valokuvaus">
+                                    <select class="form-control form-group" id="valokuvaus" name="valokuvaus">
+                                        <option value="viiva">-</option>
                                         <option value="haa">Hääkuvaus</option>
                                         <option value="henkilo">Henkilökuvaus</option>
                                         <option value="tuote">Tuotekuvaus</option>
@@ -107,7 +136,7 @@
                                     </select>
                         </div>
                         <div class="col-md-10">
-                            <div class="md-form mb-4">
+                            <div class="md-form mb-1">
                                 <label for="message">Kirjoita viestisi tähän</label>
                                 <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="Vapaamuotoinen viestisi, kysymyksesi yms. tähän..."></textarea>
                             </div>
@@ -116,19 +145,19 @@
 
                 </form>
                 <!--submit button-->
-                <div class="text-center text-md-center">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Lähetä</a>
+                <div class="text-center text-md-center mb-3">
+                    <a class="btn btn-primary">Lähetä</a>
                 </div>
 
             </div>
             <!--contact box contact info-->
-            <div class="col-md-4 text-center">
-                <ul class="list-unstyled mb-0">
+            <div class="col-md-2 bg-light justify-content-center">
+                <ul class="list-unstyled mb-4">
                     <li><i class="fas fa-phone mt-4 fa-2x"></i>
                         <p>050 3334445</p>
                     </li>
                     <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p> valophotography@gmail.com</p>
+                        <p>valophotography@gmail.com</p>
                     </li>
                 </ul>
             </div>
@@ -139,7 +168,7 @@
 
         <div class="container-fluid text-center text-md-left">
     
-        <div class="row">
+        <div class="row footer-row">
     
             <!--contact info-->
             <div class="col-md-6 mt-md-0 mt-3">
