@@ -56,6 +56,10 @@ footer {
     padding-top: 0;
 }
 
+.my-2 {
+    padding: 1%;
+}
+
 .gallery_pic{
     width: auto;
     box-shadow:1px 1px 20px;
