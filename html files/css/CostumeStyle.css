@@ -142,3 +142,6 @@ ul {
     border: 2px solid rgb(33, 87, 54);
     color: black!important;
 }
+.bar_list{
+    width: 10rem;
+}
