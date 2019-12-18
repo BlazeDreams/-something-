@@ -67,6 +67,10 @@ footer {
     padding: 2%;
 }
 
+.gallery-row {
+    padding: 0;
+}
+
 .gallery_pic{
     width: auto;
     box-shadow:1px 1px 20px black;
