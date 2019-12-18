@@ -8,7 +8,7 @@
 
 .my-nav-option{
     text-decoration: none;
-    color: azure;
+    color: #e9e9e9;
     text-shadow: 5px 3px 2px black;
 }
 
@@ -83,6 +83,7 @@ img:hover {
 }
 
 .my-nav-option {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.4rem;
     margin: 0 0.5rem 0 0.5rem;
     -webkit-transition: box-shadow 1s; /* Safari 3.1 to 6.0*/
